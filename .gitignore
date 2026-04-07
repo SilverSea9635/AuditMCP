@@ -1,4 +1,3 @@
 /node_modules/
 /.idea/
-/stdio/node_modules/
-/stdio/.idea/
+/.env.development

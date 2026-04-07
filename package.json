@@ -6,14 +6,17 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js",
-    "client": "node client.js",
+    "dev": "nodemon server.js --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "CodeGod",
   "license": "MIT",
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.82.0",
     "@modelcontextprotocol/sdk": "^1.28.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
     "nodemon": "^3.1.14",
     "zod": "^4.3.6"
   }
